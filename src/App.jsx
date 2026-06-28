@@ -6,9 +6,7 @@ import { WishlistProvider } from './context/WishlistContext';
 import { CompareProvider } from './context/CompareContext';
 import AppRoutes from './AppRoutes';
 
-/**
- * Main App component wrapping providers and routes
- */
+ 
 export const App = () => {
   return (
     <BrowserRouter>

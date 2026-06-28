@@ -35,8 +35,7 @@
 .text-gradient {
   @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-indigo-600 to-slate-900 dark:from-white dark:via-indigo-300 dark:to-slate-100;
 }
-
-/* Grid Background */
+ 
 .bg-grid-pattern {
   background-size: 40px 40px;
   background-image:

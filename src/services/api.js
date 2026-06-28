@@ -1,7 +1,6 @@
 import axios from 'axios';
 import productsData from '../data/products.json';
-
-// Create an Axios client configuration
+ 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL || 'https://api.comparex.ai/v1',
   headers: {
@@ -9,12 +8,7 @@ const api = axios.create({
   },
 });
 
-/**
- * Simulated API response wrappers.
- * This simulates real HTTP network latency (300ms) and resolves with an Axios-like response object.
- * When a real backend is ready, these functions can be swapped to direct axios calls:
- * return api.get('/products')
- */
+ 
 
 export const getProducts = async () => {
   return new Promise((resolve) => {
